@@ -1,0 +1,2 @@
+# servercloudconfig
+ s`ring cloud
