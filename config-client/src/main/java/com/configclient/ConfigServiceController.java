@@ -9,9 +9,9 @@ import com.configclient.bean.BeanConfiguration;
 @RestController
 public class ConfigServiceController {
 
-	@Value("${valores.valor_fijo: default kk}")
+	@Value("${valores.valor_fijo}")
 	String valorFijo;
-	@Value("${valores.valor_funcion: default kkk}") 
+	@Value("${valores.valor_funcion}") 
 	String valorFuncion;
 
 	@Autowired
